@@ -31,7 +31,7 @@
       <section id="main_content" class="inner">
         <hr><h3>
 		<a name="tsl2561" class="anchor" href="#tsl2561"><span class="octicon octicon-link"></span></a>TSL2561 LIGHT-TO-DIGITAL CONVERTER</h3>
-		<hr><p>Le capteur TSL2561 permet de mesurer une luminosité de 0,1 à 40000 Lux. Il communique avec un microcontrôleur via le bus I2C.</p>
+		<hr><p>Le capteur TSL2561 permet de mesurer une luminosité de <strong>0,1 à 40000 Lux</strong>. Il communique avec un microcontrôleur via le bus <strong>I2C.</strong></p>
 		<p>Son capteur couvre la lumière visible et les infrarouges grâce à deux diodes. Cela signifie que vous pouvez mesurer séparément la lumière infrarouge, la lumière visible ou le spectre complet. </p>
 		<p><img src="http://static3.watterott.com/tsl2561spectrum_MED.jpg"></p>
 		<ul>
@@ -82,21 +82,20 @@
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 <td><strong>TSL2561()</strong></td>
-<td>Initialise un objet "TSL2561". <br> L'addresse sur le bus I2C = 0x29. La fréquence de l'horloge est fixée à F = 100kHz.</td>
+<td>Instancie un objet "TSL2561". <br> L'addresse sur le bus I2C = 0x29. La fréquence de l'horloge est fixée à F = 100kHz.</td>
 </tr>
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 <td>
 <strong>TSL2561</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>)</td>
-<td>Initialise un objet "TSL2561". I2C_Add_7bits est à définir en fonction de l'état de la broche d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. La fréquence de l'horloge est fixée à F = 100kHz.</td>
+<td>Instancie un objet "TSL2561". <br><em>I2C_Add_7bits</em> est à définir en fonction de l'état de la broche d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. <br>La fréquence de l'horloge est fixée à F = 100kHz.</td>
 </tr>
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 <td>
 <strong>TSL2561</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>UInt16</strong> <em>Frequency</em>)</td>
-<td>Initialise un objet "TSL2561". I2C_Add_7bits est à définir en fonction de l'état de la broche d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. Frequency est à définir dans l'intervalle [100kHz,400kHz] </td>
-</tr>
-</table><p><strong>Enumérations</strong></p>
+<td>Instancie un objet "TSL2561". <br><em>I2C_Add_7bits</em> est à définir en fonction de l'état de la broche 
+d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. <br><em>Frequency </em>est à définir dans l'intervalle [100kHz,400kHz].</td>
 
 <table>
 <tr>
