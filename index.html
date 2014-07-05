@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Mesurer la luminosité ambiante avec un TSL2561 : Programme de test en C# et description de la classe LightSensor" />
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <title>Mesurer la luminosité ambiante avec un TSL2561</title>
+    <title>TSL2561</title>
   </head>
 
   <body>
@@ -133,50 +133,49 @@ d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. <br><em>Frequency </em>est à défi
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_property_VS.png"></td>
 <td><strong>Channel0</strong></td>
-<td>Acces en lecture. Renvoi un UInt16 </td>
-</tr>
+<td>Retourne un mot de 16 bits non signé représentatif de la lumière ambiante</td>
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_property_VS.png"></td>
 <td><strong>Channel1</strong></td>
-<td>Acces en lecture. Renvoi un UInt16 </td>
+<td>Retourne un mot de 16 bits non signé représentatif de la lumière infrarouge</td>
 </tr>
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_property_VS.png"></td>
 <td><strong>Control</strong></td>
-<td>byte. Acces en lecture. Renvoi un byte.</td>
+<td>Retourne la valeur contenue dans le registre "CONTROL". Octet non signé.</td>
 </tr>
 <tr>
 </tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_property_VS.png"></td>
 <td><strong>id</strong></td>
-<td>byte. Acces en lecture.<br/>
+<td>Retourne la valeur contenue dans le registre "ID". Octet non signé.<br/>
 - quartet de poids fort : (0)TSL2560 (1)TSL2561 <br/>
 - quartet de poids faible : l'identifiant</td>
 </tr>
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_property_VS.png"></td>
 <td><strong>interrupt</strong></td>
-<td>Acces en lecture. Retourne un byte représentatif du réglage des interruptions</td>
+<td>Retourne une valeur représentative du réglage des interruptions. Octet non signé.</td>
 </tr>
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_property_VS.png"></td>
 <td><strong>threshhighhigh</strong></td>
-<td>Accès en lecture ou en écriture. Retourne ou fixe un bytela valeur haute du seuil haut de luminosité</td>
+<td>Retourne ou fixe la valeur maximum du seuil haut de luminosité. Octet non signé.</td>
 </tr>
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_property_VS.png"></td>
 <td><strong>threshhighLow</strong></td>
-<td>Accès en lecture ou en écriture. Retourne ou fixe la valeur basse du seuil haut de luminosité.</td>
+<td>Retourne ou fixe la valeur minimum du seuil haut de luminosité. Octet non signé.</td>
 </tr>
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_property_VS.png"></td>
 <td><strong>threshLowhigh</strong></td>
-<td>Accès en lecture ou en écriture. Retourne ou fixe la valeur haute du seuil bas de luminosité</td>
+<td>Retourne ou fixe la valeur maximum du seuil bas de luminosité. Octet non signé.</td>
 </tr>
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_property_VS.png"></td>
 <td><strong>threshLowLow</strong></td>
-<td>Accès en lecture ou en écriture. Retourne ou fixe la valeur basse du seuil bas de luminosité</td>
+<td>Retourne ou fixe la valeur minimum du seuil bas de luminosité. Octet non signé.</td>
 </tr>
 <tr>
 <td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_property_VS.png"></td>
