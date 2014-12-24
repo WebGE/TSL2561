@@ -72,45 +72,45 @@
 <a name="classe-tsl2561" class="anchor" href="#classe-tsl2561"><span class="octicon octicon-link"></span></a>Classe TSL2561</h3>
 
 <hr><p><strong>Constructeurs publiques</strong></p>
-
 <table>
 <tr>
-<td></td>
-<td><strong>Syntaxe</strong></td>
-<td><strong>Description</strong></td>
+	<td></td>
+	<td><strong>Syntaxe</strong></td>
+	<td><strong>Description</strong></td>
 </tr>
 <tr>
-<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
-<td><strong>TSL2561()</strong></td>
-<td>Instancie un objet "TSL2561". <br> L'addresse sur le bus I2C = 0x29. La fréquence de l'horloge est fixée à F = 100kHz.</td>
+	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
+	<td><strong>TSL2561()</strong></td>
+	<td>Instancie un objet "TSL2561". <br> L'addresse sur le bus I2C = 0x29. La fréquence de l'horloge est fixée à F = 100kHz.</td>
 </tr>
 <tr>
-<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
-<td>
-<strong>TSL2561</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>)</td>
-<td>Instancie un objet "TSL2561". <br><em>I2C_Add_7bits</em> est à définir en fonction de l'état de la broche d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. <br>La fréquence de l'horloge est fixée à F = 100kHz.</td>
+	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
+	<td>
+	<strong>TSL2561</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>)</td>
+	<td>Instancie un objet "TSL2561". <br><em>I2C_Add_7bits</em> est à définir en fonction de l'état de la broche d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. <br>La fréquence de l'horloge est fixée à F = 100kHz.</td>
 </tr>
 <tr>
-<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
-<td>
-<strong>TSL2561</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>UInt16</strong> <em>Frequency</em>)</td>
-<td>Instancie un objet "TSL2561". <br><em>I2C_Add_7bits</em> est à définir en fonction de l'état de la broche 
-d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. <br><em>Frequency </em>est à définir dans l'intervalle [100kHz,400kHz].</td>
+	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
+	<td>
+	<strong>TSL2561</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>UInt16</strong> <em>Frequency</em>)</td>
+	<td>Instancie un objet "TSL2561". <br><em>I2C_Add_7bits</em> est à définir en fonction de l'état de la broche 
+	d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. <br><em>Frequency </em>est à définir dans l'intervalle [100kHz,400kHz].</td>
+</tr>
+</table>
 
+<p><strong>Enumérations</strong></p>
 <table>
 <tr>
-<td></td>
-<td><strong>Syntaxe</strong></td>
-<td><strong>Description</strong></td>
+	<td></td>
+	<td><strong>Syntaxe</strong></td>
+	<td><strong>Description</strong></td>
 </tr>
 <tr>
 	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_enum_VS.png"></td>
 	<td><strong>Gain</strong></td>
-	<td>
-	x1 : Fixe le gain à 1 (par défaut)<br />
-	x16 : Fixe le gain à 16
+	<td>x1 : Fixe le gain à 1 (par défaut)<br />
+		x16 : Fixe le gain à 16
 	</td>
-
 </tr>
 <tr>
 	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_enum_VS.png"></td>
@@ -120,10 +120,10 @@ d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. <br><em>Frequency </em>est à défi
 	_101MS : 101ms<br />
 	_402MS : 402ms (par défaut)
 	</td>
-
 </tr>
-</table><p><strong>Propriétés publiques</strong></p>
+</table>
 
+<p><strong>Propriétés publiques</strong></p>
 <table>
 <tr>
 <td></td>
