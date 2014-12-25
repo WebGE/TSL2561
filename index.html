@@ -58,18 +58,46 @@
 </tr>
 </table>
 <hr/>
-<h3><a name="classe-TSL2561" class="anchor" href="#classe-TSL2561"><span class="octicon octicon-link"></span></a>Classe LightSensor</h3>
+<h3>Carte NetDuino plus 2</h3>
+<h5>Secret Labs</h5>
+<hr/>
+<ul>
+	<li><strong>Microcontrôleur</strong> : STM32F405RG 32 bits à architecture Cortex-M4 cadencé à 168 MHz.</li>
+	<li><strong>RAM</strong> : 100 KB.</li>
+	<li><strong>Flash</strong> : 384 KB.</li>
+	<li><strong>Port Ethernet</strong> 10Mbps.</li>
+	<li><strong>E/S numériques</strong> : 14</li>
+	<li><strong>Entrées analogiques</strong> : 6</li>
+	<li><strong>IDE</strong> : Microsoft Visual Studio (professionnel ou express)</li>
+	<li><strong>Framework</strong> : micro framework .NET (NETMF)</li>
+	<li><strong>Langage de programmation</strong> : C#</li>
+</ul>
+<p align="center"><img src="http://cdn.netduino.com/images/hardware/netduino2/photo_overhead.gif" alt="Netduino+ 2"></p>
+<ul>
+	<li><strong>Sites à consulter</strong>: <a href="http://netduino.com/netduinoplus2/specs.htm" target="_blank">Netduino</a>, <a href="http://www.netmf.com/" target="_blank">NETMF</a></li>
+	<li><strong>Distributeurs</strong> : <a href="http://www.robotshop.com/en/catalogsearch/result/?q=netduino&order=stats_sales_order_count&dir=desc" target="_blank">RobotShop</a>, <a href="http://www.mouser.fr/Search/Refine.aspx?Keyword=netduino" target="_blank">Mouser Electronics</a></li>
+</ul>
+<hr/>
+<h3><a name="classe-TSL2561" class="anchor" href="#classe-TSL2561"><span class="octicon octicon-link"></span></a>Classe TSL2561</h3>
+<hr/>
+<p><strong>Contenu du dossier à télécharger</strong></p>
+<hr/>
+<p> Le dossier à télécharger (au format zip ou tar.gz) contient le répertoire d'un projet <strong>Microsoft Visual Studio Professionnel</strong> composé : </p>
+<ul>
+	<li>Du code de la classe <em>TSL2561</em>.</li>
+	<li>D'un exemple d'utilisation de cette classe.</li>
+</ul>
+<p> Les fichiers program.cs et DriversTSL2561.cs pourront être recompilés avec <strong>Microsoft Visual Studio Express</strong>.</p>
 <hr/>
 <p><strong>Utilisation</strong></p>
 <hr/>
 <ol>
-	<li><strong>Créer</strong> un objet en utilisant le constructeur LightSensor approprié.</li>
-	<li><strong>Initialiser</strong> le circuit avec la méthode <strong>Init</strong> et les paramètres appropriés.</li>
-	<li><strong>Lire</strong> la luminosité ambiante avec la méthode <strong>CalculateLux</strong></li>
+	<li><strong>Créer</strong> un objet en utilisant le constructeur <em>TSL2561</em> approprié.</li>
+	<li><strong>Initialiser</strong> le circuit avec la méthode <em>Init</em> et les paramètres appropriés.</li>
+	<li><strong>Lire</strong> la luminosité ambiante avec la méthode <em>CalculateLux</em></li>
 </ol>
-<hr>
-<h3><a name="classe-tsl2561" class="anchor" href="#classe-tsl2561"><span class="octicon octicon-link"></span></a>Classe TSL2561</h3>
-<hr>
+<hr/>
+
 <p><strong>Constructeurs</strong></p>
 <table>
 <tr>
@@ -191,7 +219,7 @@
 </tr>
 <tr>
 	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
-	<td><strong>float calculateLux()</strong></td>
+	<td><strong>float CalculateLux()</strong></td>
 	<td>Renvoi la mesure de la luminosité ambiante en Lux</td>
 </tr>
 <tr>
