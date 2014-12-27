@@ -15,7 +15,7 @@ using Microsoft.SPOT;
 using Microsoft.SPOT.Hardware;
 
 
-namespace LightSensor
+namespace ToolBoxes
 {
     /// <summary>
     /// TSL2561 Light to digital converter Class 

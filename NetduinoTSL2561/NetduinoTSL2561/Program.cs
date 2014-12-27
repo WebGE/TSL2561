@@ -1,13 +1,9 @@
-﻿using System;
-using System.Threading;
+﻿using System.Threading;
 using Microsoft.SPOT;
-using Microsoft.SPOT.Hardware;
-using SecretLabs.NETMF.Hardware;
-using SecretLabs.NETMF.Hardware.Netduino;
 
-using LightSensor;
+using ToolBoxes;
 
-namespace NetduinoTSL2561
+namespace TestNetduinoTSL2561
 {
     public class Program
     { // http://webge.github.io/TSL2561/
