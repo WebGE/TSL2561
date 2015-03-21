@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetduinoTSL2561", "NetduinoTSL2561\NetduinoTSL2561.csproj", "{F68BBA4B-FCA7-40FF-B830-00EB86283B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSL2561", "TSL2561\TSL2561.csproj", "{E45D1A18-AB3F-45C0-9024-B7400FDF8188}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F68BBA4B-FCA7-40FF-B830-00EB86283B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F68BBA4B-FCA7-40FF-B830-00EB86283B8B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F68BBA4B-FCA7-40FF-B830-00EB86283B8B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E45D1A18-AB3F-45C0-9024-B7400FDF8188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45D1A18-AB3F-45C0-9024-B7400FDF8188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45D1A18-AB3F-45C0-9024-B7400FDF8188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45D1A18-AB3F-45C0-9024-B7400FDF8188}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
