@@ -1,0 +1,16 @@
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\bin\Debug\le\TSL2561.dll
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\bin\Debug\be\TSL2561.dll
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\bin\Debug\le\TSL2561.pdb
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\bin\Debug\be\TSL2561.pdb
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\bin\Debug\TSL2561.dll
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\bin\Debug\TSL2561.pdb
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\bin\Debug\le\TSL2561.pe
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\bin\Debug\le\TSL2561.pdbx
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\bin\Debug\be\TSL2561.pe
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\bin\Debug\be\TSL2561.pdbx
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\obj\Debug\be\TSL2561.pe
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\obj\Debug\be\TSL2561.pdbx
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\obj\Debug\le\TSL2561.pe
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\obj\Debug\le\TSL2561.pdbx
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\obj\Debug\TSL2561.dll
+C:\Users\Philippe\Documents\GitHub\TSL2561\NetduinoTSL2561\TSL2561\obj\Debug\TSL2561.pdb
