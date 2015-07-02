@@ -47,4 +47,11 @@
       <Name>TSL2561</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lisez-moi.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Doc_A_Consulter\TSL2561.pdf" />
+  </ItemGroup>
 </Project>
