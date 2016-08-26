@@ -129,19 +129,19 @@
 <tr>
 	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 	<td><strong>TSL2561()</strong></td>
-	<td>Instancie un objet "TSL2561". <br> Son addresse <strong>SLA</strong> sur le bus I2C = 0x29. <br/>La fréquence du signal d'horloge est fixée à F = 100kHz.</td>
+	<td>Instancie un objet "TSL2561". <br>Addresse <strong>SLA</strong> sur le bus I²C = 0x29. <br/>Fréquence du signal SCL = 100kHz.</td>
 </tr>
 <tr>
 	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 	<td><strong>TSL2561</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>)</td>
-	<td>Instancie un objet "TSL2561". <br><em>I2C_Add_7bits</em> est à définir en fonction de l'état de 
-	la broche d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. <br>La fréquence du signal d'horloge est fixée à F = 100kHz.</td>
+	<td>Instancie un objet "TSL2561". <br><em>I2C_Add_7bits: </em>à définir en fonction de l'état de 
+	la broche d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. <br>Fréquence du signal SCL = 100kHz.</td>
 </tr>
 <tr>
 	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 	<td><strong>TSL2561</strong>(<strong>byte</strong> <em>I2C_Add_7bits</em>, <strong>UInt16</strong> <em>Frequency</em>)</td>
-	<td>Instancie un objet "TSL2561". <br><em>I2C_Add_7bits</em> est à définir en fonction de l'état de la broche 
-	d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. <br><em>Frequency </em>est à définir dans l'intervalle [100kHz,400kHz].</td>
+	<td>Instancie un objet "TSL2561". <br><em>I2C_Add_7bits: </em> à définir en fonction de l'état de la broche 
+	d'adresse (GND)0x29, (VDD)0x49, (FLOAT)0x69. <br><em>Fréquence du signal SCL: </em>à définir dans l'intervalle [100kHz,400kHz].</td>
 </tr>
 </table>
 
@@ -194,7 +194,7 @@
 <tr>
 	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_property_VS.png"></td>
 	<td><strong>id</strong></td>
-	<td>Retourne la valeur contenue dans le registre "ID". Octet non signé.<br/>
+	<td>Retourne la valeur contenue dans le registre "ID". <br/>Octet non signé:<br/>
 	- quartet de poids fort : (0)TSL2560 (1)TSL2561 <br/>
 	- quartet de poids faible : valeur de l'identifiant du composant
 	</td>
@@ -231,7 +231,7 @@
 </tr>
 </table>
 
-<p><strong>Méthodes publiques</strong></p>
+<p><strong>Méthodes</strong></p>
 <table>
 <tr>
 	<td></td>
@@ -241,12 +241,12 @@
 <tr>
 	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
 	<td><strong>float CalculateLux()</strong></td>
-	<td>Renvoi la mesure de la luminosité ambiante en Lux</td>
+	<td>Renvoi la mesure de la luminosité ambiante en Lux.</td>
 </tr>
 <tr>
 	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
 	<td><strong>void Dispose()</td>
-	<td>Libère le bus I2C.</td>
+	<td>Libère le bus I²C.</td>
 </tr>
 <tr>
 	<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
