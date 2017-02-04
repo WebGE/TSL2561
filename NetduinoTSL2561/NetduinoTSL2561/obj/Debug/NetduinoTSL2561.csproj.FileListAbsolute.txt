@@ -1,0 +1,58 @@
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\TinyCLR_DebugReferences.cache
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\le\NetduinoTSL2561.exe
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\be\NetduinoTSL2561.exe
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\le\NetduinoTSL2561.pdb
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\be\NetduinoTSL2561.pdb
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\NetduinoTSL2561.exe
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\NetduinoTSL2561.pdb
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\le\NetduinoTSL2561.pe
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\le\NetduinoTSL2561.pdbx
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\be\NetduinoTSL2561.pe
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\be\NetduinoTSL2561.pdbx
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\LE\SecretLabs.NETMF.Hardware.pe
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\LE\SecretLabs.NETMF.Hardware.Netduino.pe
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\BE\SecretLabs.NETMF.Hardware.pe
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\BE\SecretLabs.NETMF.Hardware.Netduino.pe
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\LE\SecretLabs.NETMF.Hardware.pdbx
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\LE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\BE\SecretLabs.NETMF.Hardware.pdbx
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\BE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\SecretLabs.NETMF.Hardware.dll
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.dll
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\SecretLabs.NETMF.Hardware.pdb
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.pdb
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\be\NetduinoTSL2561.pe
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\be\NetduinoTSL2561.pdbx
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\le\NetduinoTSL2561.pe
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\le\NetduinoTSL2561.pdbx
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\NetduinoTSL2561.exe
+c:\users\pemartin\documents\visual studio 2010\Projects\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\NetduinoTSL2561.pdb
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\le\NetduinoTSL2561.exe
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\be\NetduinoTSL2561.exe
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\le\NetduinoTSL2561.pdb
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\be\NetduinoTSL2561.pdb
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\NetduinoTSL2561.exe
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\NetduinoTSL2561.pdb
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\le\NetduinoTSL2561.pe
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\le\NetduinoTSL2561.pdbx
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\be\NetduinoTSL2561.pe
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\be\NetduinoTSL2561.pdbx
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\LE\SecretLabs.NETMF.Hardware.pe
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\LE\SecretLabs.NETMF.Hardware.Netduino.pe
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\BE\SecretLabs.NETMF.Hardware.pe
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\BE\SecretLabs.NETMF.Hardware.Netduino.pe
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\LE\SecretLabs.NETMF.Hardware.pdbx
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\LE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\BE\SecretLabs.NETMF.Hardware.pdbx
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\BE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\SecretLabs.NETMF.Hardware.dll
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.dll
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\SecretLabs.NETMF.Hardware.pdb
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.pdb
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\TinyCLR_DebugReferences.cache
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\be\NetduinoTSL2561.pe
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\be\NetduinoTSL2561.pdbx
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\le\NetduinoTSL2561.pe
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\le\NetduinoTSL2561.pdbx
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\NetduinoTSL2561.exe
+F:\Travail_en_cours\1c_Embedded_C#\3_NetDuino\4_Code_C#\Exemples_prog_Eleve_MSVS2010\NetduinoTSL2561\NetduinoTSL2561\obj\Debug\NetduinoTSL2561.pdb
