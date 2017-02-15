@@ -17,8 +17,8 @@
 		<header class="inner">
 			<a id="forkme_banner" href="https://github.com/WebGE/TSL2561">View on GitHub</a>
 			<h1 id="project_title">Capteur de luminosité ambiante I²C (TSL2561)</h1>
-			<h2 id="project_tagline" </h2>Description de la classe <strong><em>TSL2561</em></strong> développée en C# sous .NETMF 4.3 pour une Netduino plus 2,
-				une Netduino 3 ou les cartes FEZ.</h2>
+			<h2 id="project_tagline">Description de la classe <strong><em>TSL2561</em></strong> développée en C# sous .NETMF 4.3 pour les cartes Netduino et
+				FEZ (PANDA, COBRA...)</h2>
 			<section id="downloads">
 				<a class="zip_download_link" href="https://github.com/WebGE/TSL2561/zipball/master">Download this project as a .zip file</a>
 				<a class="tar_download_link" href="https://github.com/WebGE/TSL2561/tarball/master">Download this project as a tar.gz file</a>
@@ -29,9 +29,29 @@
 	<!-- MAIN CONTENT -->
 	<div id="main_content_wrap" class="outer">
 		<section id="main_content" class="inner">
-			<hr/>
-			<h3><a name="tsl2561" class="anchor" href="#tsl2561"><span class="octicon octicon-link"></span></a>Le circuit intégré TSL2561:
-				LIGHT-TO-DIGITAL CONVERTER</h3>
+			<hr>
+			<h4>Sommaire</h4>
+			<ol>
+				<li>LE MATERIEL
+					<ol>
+						<li>Le circuit intégré TSL2561: LIGHT-TO-DIGITAL CONVERTER</li>
+						<li><a href="#DUINO">Les cartes Netduino</a></li>
+						<li><a href="#FEZ">Les cartes FEZ</a> </li>
+					</ol>
+				</li>
+				<li><a href="#LOG">LE LOGICIEL</a>
+					<ol>
+						<li><a href="#REP">Contenu du répertoire proposé au téléchargement</a></li>
+						<li><a href="#NUGET">Le NuGet MicroToolsKit</a></li>
+						<li><a href="#WIKI">Les Wikis</a></li>
+						<li><a href="#DESC">Description et utilisation de la classe TSL2561</a></li>
+					</ol>
+				</li>
+			</ol>
+			<hr>
+			<h3>1. LE MATERIEL</h3>
+			<hr>
+			<h4>1.1 Le circuit intégré TSL2561: LIGHT-TO-DIGITAL CONVERTER</h4>
 			<hr>
 			<p>Le capteur TSL2561 mesure la luminosité ambiante de <strong>0,1 à 40000 Lux</strong>. Il communique avec un microcontrôleur
 				via un bus <strong>I²C.</strong></p>
@@ -46,9 +66,9 @@
 				<li><strong>Documentation: </strong><a href="http://www.adafruit.com/datasheets/TSL2561.pdf" target="_blank">TSL2561 LIGHT-TO-DIGITAL CONVERTER</a></li>
 				<li><strong>Distributeur: </strong><a href="http://www.gotronic.fr/rechercher.htm" target="_blank">Gotronic</a></li>
 			</ul>
-			<hr/>
+			<hr>
 			<h3><a name="modules" class="anchor" href="#modules"><span class="octicon octicon-link"></span></a>Modules TSL2561</h3>
-			<hr/>
+			<hr>
 			<table>
 				<tr align="center">
 					<td><strong>Adafruit</strong></td>
@@ -63,44 +83,44 @@
 					<td><a href="http://www.seeedstudio.com/wiki/Grove_-_Digital_Light_Sensor" target="_blank">Documentation</a> - <a href="images/Digital Light Sensor V1.JPG">Schéma</a></td>
 				</tr>
 			</table>
-			<hr/>
-			<h3>Les cartes Netduino</h3>
+			<hr>
+
+			<h4 id="DUINO">1.2 Les cartes Netduino</h4>
 			<h5>Secret Labs</h5>
-			<hr/>
+			<hr>
 			<ul>
 				<li><strong>Microcontrôleur</strong> : STM32F405RG 32 bits à architecture Cortex-M4 cadencé à 168 MHz.</li>
-				<li><strong>RAM</strong> : 100 KB (164+)*.</li>
-				<li><strong>Flash</strong> : 384 KB (1408KB)*.</li>
-				<li><strong>Port Ethernet : </strong> 10Mbps (Wifi:802.11b/g/n)*.</li>
+				<li><strong>RAM</strong> : 164KB+.</li>
+				<li><strong>Flash</strong> : 1408KB.</li>
+				<li><strong>Port Ethernet : </strong> 10/100Mbps (Wifi:802.11b/g/n)*.</li>
 				<li><strong>E/S numériques</strong> : 22</li>
 				<li><strong>Entrées analogiques</strong> : 6</li>
 				<li><strong>Stockage</strong>: carte µSD</li>
 				<li><strong>IDE</strong> : Microsoft Visual Studio</li>
 				<li><strong>Framework</strong> : .NETMF 4.3</li>
 				<li><strong>Langages de programmation</strong> : C#, VB</li>
+				<li><strong>Compatibilité</strong> : shield Arduino, Gadgeteer</li>
 			</ul>
-
 			<table>
 				<tr>
-					<td><img src="http://www.mouser.com/images/microsites/Netduino_Plus_2.jpg" alt="Netduino plus 2" /></td>
-					<td><img src="http://static.netduino.com/images/netduino3wifi/specs/inputandoutput.jpg" /></td>
+					<td><img src="images/netduino3ethernet.png" alt="Netduino plus 2" target="_blank" /></td>
+					<td><img src="images/inputandoutput.png" alt="Netduino 3 wifi" target="_blank" /></td>
 				</tr>
 				<tr>
-					<td align="center"><strong>Netduino + 2</strong></td>
-					<td align="center"><strong>Netduino 3 wifi* (compatible Gadgeteer)</strong></td>
+					<td align="center"><strong>Netduino 3 Ethernet</strong></td>
+					<td align="center"><strong>Netduino 3 wifi*</strong></td>
 				</tr>
 			</table>
 			<ul>
-				<li><strong>Sites à consulter</strong>: <a href="http://netduino.com/netduinoplus2/specs.htm" target="_blank">Netduino</a>,
+				<li><strong>Sites à consulter</strong> : <a href="http://netduino.com/netduinoplus2/specs.htm" target="_blank">Netduino</a>,
 					<a href="http://www.netmf.com/" target="_blank">NETMF</a></li>
-				<li><strong>Distributeurs</strong> :<a href="http://static.netduino.com/images/hardware/netduino3wifi.jpg" target="_blank">Mouser Electronics</a></li>
+				<li><strong>Distributeurs</strong> : <a href="http://www.mouser.fr/Search/Refine.aspx?Keyword=netduino" target="_blank">Mouser Electronics</a></li>
 			</ul>
-			<hr/>
-			<h3>
-				<a name="carte-netduino-de-secret-labs" class="anchor" href="#carte-netduino-de-secret-labs" target="_blank">
-					<span class="octicon octicon-link"></span></a>Les cartes FEZ</h3>
+			<hr>
+
+			<h4 id="FEZ">1.3 Les cartes FEZ</h4>
 			<h5>GHI Electonics (Extrait)</h5>
-			<hr/>
+			<hr>
 			<ul>
 				<li><strong>Microcontrôleur</strong> : 180 MHz 32-bit ARM Cortex-M4.(120 MHz 32-bit ARM Cortex-M3 )*</li>
 				<li><strong>SoC(SoM)*</strong> : <a href="https://www.ghielectronics.com/catalog/product/501" target="_blank">G80</a>
@@ -118,38 +138,55 @@
 			</ul>
 			<table>
 				<tr>
-					<td><img src="https://www.ghielectronics.com/img/www/products/474-0_small.jpg" alt="PANDA III" /></td>
-					<td><img src="https://www.ghielectronics.com/img/www/products/540-0_small.jpg" alt="COBRA III" /></td>
+					<td><img src="images/panda3.png" alt="PANDA III" /></td>
+					<td><img src="images/cobra3.png" alt="COBRA III" /></td>
 				</tr>
 				<tr>
 					<td align="center"><strong>PANDA III</strong></td>
 					<td align="center"><strong>COBRA III* (compatible Gadgeteer)</strong></td>
 				</tr>
 			</table>
-
 			<ul>
 				<li><strong>Sites à consulter</strong> : <a href="https://www.ghielectronics.com/" target="_blank">GHI ELECTRONICS</a>,
 					<a href="http://www.netmf.com/" target="_blank">NETMF</a></li>
 				<li><strong>Distributeurs</strong> : <a href="http://www.mouser.fr" target="_blank">Mouser Electronics</a></li>
 			</ul>
-			<hr/>
-			<h3>Wiki</h3>
-			<ul>
-				<li><strong>Des exemples de code pour les cartes Netduino et FEZ sont disponibles <br> sur Wikispaces: <a href="https://csharpembarquenetduino.wikispaces.com/" target="_blank">lien</a></strong></li>
-			</ul>
 
-			<hr/>
-			<h3>Contenu du répertoire proposé au téléchargement</h3>
+			<hr>
+			<h3 id="LOG">2. LE LOGICIEL</h3>
+			<hr>
+
+			<h4 id="REP">2.1 Contenu du répertoire proposé au téléchargement</h4>
 			<p>Le répertoire proposé au téléchargement (au format zip ou tar.gz) contient la solution <strong>NetduinoTSL2561</strong>				composée : </p>
 			<ul>
 				<li>Du projet <strong>TSL2561 </strong>: le <strong>code source</strong> de la classe <em>TSL2561</em>.</li>
 				<li>Du projet <strong>TestTSL2561 </strong>: un exemple d'utilisation de cette classe.</li>
 			</ul>
-			<p><em>Remarques : La dernière version <strong>compilée</strong> de la classe <strong>TSL2561</strong> se situe dans la bibliothèque <strong>MicroToolsKit</strong> disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>.</em></p>
-			<p align="center"><img src="images/NuGet-large.png" /></p>
-			<p><em>Installer cette bibliothèque dans le projet simplifie l'utilisation de cette classe.</em></p>
 			<hr>
-			<h3>Description et utilisation de la classe TSL2561</h3>
+
+			<h4 id="NUGET">2.2 Le NuGet MicroToolsKit</h4>
+			<p>La dernière version <strong>compilée</strong> de la classe <strong>TSL2561</strong> se situe dans la bibliothèque <strong>MicroToolsKit</strong>				disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>.</p>
+			<p align="center"><img src="images/NuGet-large.png" /></p>
+			<p><strong>Organisation des classes</strong> contenues dans MicroToolsKit
+				<a href="https://csharpembarquenetduino.wikispaces.com/6.+La+biblioth%C3%A8que+MicroToolsKit" target="_blank">[lien]</a>
+			</p>
+			<p><em>Installer cette bibliothèque dans le projet simplifie l'utilisation de la classe.</em></p>
+			<hr>
+
+			<h4 id="WIKI">2.3 Les Wikis</h4>
+			<ul>
+				<li><strong>Fascicules</strong> d'exemples de code pour les cartes <strong>Netduino</strong>.
+					<a href="https://csharpembarquenetduino.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp"
+						target="_blank">[lien]</a>
+				</li>
+				<li><strong>Fascicule</strong> d'exemples de code pour les cartes <strong>FEZ</strong>.
+					<a href="https://csharpembarquefez.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp"
+						target="_blank">[lien]</a>
+				</li>
+			</ul>
+			<hr>
+
+			<h4 id="DESC">2.4 Description et utilisation de la classe TSL2561</h4>
 			<ul>
 				<li><strong>Rôle: </strong>Contrôler un capteur TSL2561 via un bus I²C.</li>
 				<li><strong>Assembly: </strong> <em>MicroToolsKit</em> (disponible sur
@@ -160,7 +197,8 @@
 			<p><strong>Création d'un projet avec l'IDE Visual Studio</strong></p>
 			<ol>
 				<li><strong>Utiliser</strong> le gestionnaire de paquets NuGet pour <strong>ajouter</strong> l'assembly <strong>MicroToolsKit</strong>					(disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>) dans le
-					répertoire <em>Références</em> du projet.(clic droit sur <em>Références</em> dans le gestionnaire de solutions de Visual Studio puis <em>Gérer les packages NuGet...</em>)</li>
+					répertoire <em>Références</em> du projet.(clic droit sur <em>Références</em> dans le gestionnaire de solutions de Visual
+					Studio puis <em>Gérer les packages NuGet...</em>)</li>
 				<li><strong>Ajouter</strong> l'espace de noms <strong>Microtoolskit.Hardware.Sensors</strong> dans l'en-tête du fichier source.
 				</li>
 				<li><strong>Créer</strong> un objet en utilisant un des constructeurs <em>TSL2561</em>.</li>
@@ -313,7 +351,8 @@
 	<!-- FOOTER  -->
 	<div id="footer_wrap" class="outer">
 		<footer class="inner">
-			<p class="copyright">Mesurer la luminosité ambiante avec un TSL2561 maintained by <a href="https://github.com/WebGE">WebGE</a></p>
+			<p class="copyright">Description de la classe <strong><em>TSL2561</em></strong> développée en C# sous .NETMF 4.3 pour les cartes Netduino et
+				FEZ (PANDA, COBRA...) maintained by <a href="https://github.com/WebGE">WebGE</a></p>
 			<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
 		</footer>
 	</div>
