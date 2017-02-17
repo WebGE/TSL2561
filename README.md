@@ -1,11 +1,22 @@
 TSL2561
 =======
 
-Tags: I²C, TSL2561,LIGHT-TO-DIGITAL CONVERTER, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio..
+Source code of the TSL2561 NETMF class contained in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> library. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
 
-Target: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
+This class is for a TSL2561 circuit : <strong>LIGHT-TO-DIGITAL CONVERTER</strong>.
 
-This library can be use to control the <a href="http://www.gotronic.fr/art-capteur-de-luminosite-tsl2561-19569.htm" target="_blank">TSL2561</a> LIGHT-TO-DIGITAL CONVERTER with Netduino. 
 
-Code written in C# with Visual Studio 2013. 
+<strong>Tags</strong>: I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
+<strong>Target</strong>: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
+
+<strong>IDE</strong> : Visual Studio Community.
+
+<strong>Language</strong> : C#.
+
+<strong>Framework</strong> : .NETMF 4.3
+
+
+See <a href="http://webge.github.io/TSL2561/" target="_blank">TSL2561 GitHub Pages</a> too get started.
+
+Maintened by <a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
