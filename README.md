@@ -1,7 +1,7 @@
 TSL2561
 =======
 
-Source code of the TSL2561 NETMF class contained in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> library. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
+Source code of the TSL2561 <strong>NETMF class</strong> contained in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> <strong>library</strong>. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
 
 This class is for a TSL2561 circuit : <strong>LIGHT-TO-DIGITAL CONVERTER</strong>.
 
@@ -16,7 +16,7 @@ This class is for a TSL2561 circuit : <strong>LIGHT-TO-DIGITAL CONVERTER</strong
 
 <strong>Framework</strong> : .NETMF 4.3
 
-
+<hr>
 See <a href="http://webge.github.io/TSL2561/" target="_blank">TSL2561 GitHub Pages</a> too get started.
 
 Maintened by <a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
