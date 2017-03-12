@@ -19,4 +19,4 @@ This class is for a TSL2561 circuit : <strong>LIGHT-TO-DIGITAL CONVERTER</strong
 <hr>
 See <a href="http://webge.github.io/TSL2561/" target="_blank">TSL2561 GitHub Pages</a> too get started.
 
-Maintened by <a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
+Maintened by <a href="mailto:philippemariano@gmail.com">WebGE</a>
