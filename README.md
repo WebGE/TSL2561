@@ -23,19 +23,50 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 <li><strong>xml</strong> : documentation inside class </li> 
 </ul>
 
+<strong> Visual Studio solution</strong>
+-------------------------------------
+<ul>
+<li><strong>TSL2561</strong>
+<ul>
+<li><strong>TSL2561</strong> : .NetMF class</li>
+<img src="img/tsl2561.png" />
+<li><strong>Netduino</strong> : class test program for Netduino board (todo)</li>
+<li><strong>FezPanda</strong> : class test program for Fez Panda board (todo)</li>
+</ul>
+</li>
+</ul>
 
+<strong>Assembly</strong>
+--------------------------
+To come up
 
-<strong>Tags</strong>: I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
+<strong>Video</strong>
+-------------------
+To come up
 
-<strong>Target</strong>: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
+<strong>Keywords</strong>
+----------------------------
+I²C Bus, LIGHT-TO-DIGITAL CONVERTER, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
-<strong>IDE</strong> : Visual Studio Community.
+<strong>Tested on</strong>
+-------------------
+Fez Panda III, Netduino plus 2
 
-<strong>Language</strong> : C#.
+<strong>Todo list</strong>
+-------------------
+Exception if transaction failed
 
-<strong>Framework</strong> : .NETMF 4.3
+<strong>To get started</strong>
+--------------------
+See <a href="http://webge.github.io/TSL2561/" target="_blank">TSL2561 GitHub Pages</a> (in French).
 
+<strong>Wiki</strong>
+--------------------
+See <a href="https://csharpembarquenetduino.wikispaces.com/Home" target="_blank">Netduino et FEZ</a> (in French).
+
+<strong>Project site</strong>
+--------------------
+<a href ="https://csharpembarquenetduino.wikispaces.com/6.+MicroToolsKit+library">MicroToolsKit library</a> (in English).
 <hr>
-See <a href="http://webge.github.io/TSL2561/" target="_blank">TSL2561 GitHub Pages</a> too get started.
 
 Maintened by <a href="mailto:philippemariano@gmail.com">WebGE</a>
