@@ -60,9 +60,13 @@ Exception if transaction failed
 --------------------
 See <a href="http://webge.github.io/TSL2561/" target="_blank">TSL2561 GitHub Pages</a> (in French).
 
+<strong>Feed on Google+</strong>
+--------------------
+- <a href="https://plus.google.com/collection/oaaJX" target="_blank">C# embarqué et .NetMF v4.3 : Netduino et GHI FEZ</a> (in French).
+
 <strong>Wiki</strong>
 --------------------
-- <a href="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf" target="_blank">C# Embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ</a> (in French).
+- <a href="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf" target="_blank">C# embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ</a> (in French).
 
 <strong>Project site</strong>
 --------------------
