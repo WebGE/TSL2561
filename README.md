@@ -29,12 +29,12 @@ This class is also in the [MicroToolsKit](https://www.nuget.org/packages/WEBGE.M
 
 ![TSL2561](img/tsl2561.png)
 
-* **Netduino** : class test program for Netduino board (todo)
-* **FezPanda** : class test program for Fez Panda board (todo)
+* **Netduino** : class test program for Netduino board
+* **FezPanda** : class test program for Fez Panda board
 
 ## Assembly
 
-To come up
+![TSL2561](img/TSL2561.jpg)
 
 ## Video
 
