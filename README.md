@@ -4,7 +4,7 @@
 
 Source code.
 
-A **.NETMF v4.3** class write for a TSL2561 circuit : LIGHT-TO-DIGITAL CONVERTER for I²C-bus. 
+A **.NETMF v4.4** class write for a TSL2561 circuit : LIGHT-TO-DIGITAL CONVERTER for I²C-bus. 
 
 This class is also in the [MicroToolsKit](https://www.nuget.org/packages/WEBGE.Microtoolskit/) **library**. Download at [nuget.org](https://www.nuget.org).
 
@@ -17,7 +17,7 @@ This class is also in the [MicroToolsKit](https://www.nuget.org/packages/WEBGE.M
 ## Software
 
 * **Language** : C#
-* **Framework used** : .NETMF 4.3
+* **Framework used** : .NETMF 4.4
 * **IDE** : Visual Studio Community 2015
 * **xml** : documentation inside class  
 
@@ -54,15 +54,11 @@ Exception if transaction failed
 
 ## To get started
 
-See [TSL2561 GitHub Pages](http://webge.github.io/TSL2561/) (French).
-
-## Feed on Google+
-
-* [C# embarqué et .NetMF v4.3 : Netduino et GHI FEZ](https://plus.google.com/collection/oaaJX) (French).
+See [TSL2561 GitHub Pages](https://webge.github.io/TSL2561/) (French).
 
 ## Wiki
 
-* [C# embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ](http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf) (French).
+* [C# embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ](https://webge.fr/dokuwiki/doku.php?id=archives:netmf43:accueilnetmf) (French).
 
 ## Project site
 
